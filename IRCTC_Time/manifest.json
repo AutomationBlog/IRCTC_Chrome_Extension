@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "IRCTC 12h Converter",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.irctc.co.in/*"],
+      "js": ["content.js", "popup.js"]
+    }
+  ]
+}
