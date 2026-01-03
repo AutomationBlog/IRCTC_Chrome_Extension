@@ -9,7 +9,7 @@ A simple Chrome extension that converts times on IRCTC website from 24-hour form
 
 ## Installation
 
-1. Download `IRCTC_24H_to_12H_Convertor` folder
+1. Download `IRCTC_24H_to_12H_Convertor.zip` file
 2. Go to Chrome extensions page by typing `chrome://extensions/`
 3. Enable Developer mode
 4. Click on "Load unpacked"
