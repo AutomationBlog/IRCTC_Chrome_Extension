@@ -1,15 +1,26 @@
 {
   "manifest_version": 3,
-  "name": "IRCTC Text Fixer",
-  "version": "1.0",
-  "permissions": ["activeTab", "scripting"],
-  "action": {},
-  "background": {
-    "service_worker": "background.js"
-  },
+  "name": "IRCTC Helper",
+  "description": "manifest.json description",
+  "version": "1.0.0",
   "icons": {
-    "16": "icons/irctc_icon.png",
-    "48": "icons/irctc_icon.png",
-    "128": "icons/irctc_icon.png"
-  }
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "96": "icon/96.png",
+    "128": "icon/128.png"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["*://*.irctc.co.in/*"],
+  "action": {
+    "default_icon": {
+      "16": "icon/16.png",
+      "48": "icon/48.png",
+      "128": "icon/128.png"
+    }
+  },
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    { "matches": ["*://*.irctc.co.in/*"], "js": ["content-scripts/content.js"] }
+  ]
 }
