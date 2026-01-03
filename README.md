@@ -13,7 +13,7 @@ A simple Chrome extension that converts times on IRCTC website from 24-hour form
 2. Go to Chrome extensions page by typing `chrome://extensions/`
 3. Enable Developer mode
 4. Click on "Load unpacked"
-5. Select the folder where you cloned the repository
+5. Select the zip file where you downloaded
 6. The extension should now be visible in the extensions page
 
 ## Usage
