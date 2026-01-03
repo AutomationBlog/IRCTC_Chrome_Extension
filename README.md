@@ -35,3 +35,5 @@ This extension is licensed under the MIT License. See [LICENSE](https://opensour
 ### After
 
 ![Screenshot 2](/IRCTC_Screenshot/SS_2.png)
+
+![Screenshot 3](/IRCTC_Screenshot/SS_3.png)
